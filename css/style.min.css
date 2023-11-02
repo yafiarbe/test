@@ -3,7 +3,7 @@
   --color-2: #F2F2F2;
   --color-3: #23261F;
   --color-4: #58594F;
-  --color-5: #7332246e;
+  --color-5: #733224;
 }
 
 *:where(:not(html, iframe, canvas, img, svg, video, audio):not(svg *, symbol *)) {
@@ -108,13 +108,17 @@ html {
 }
 
 .body {
-  color: black;
+  color: var(--color-3);
   font-size: 16px;
   font-family: Roboto;
   min-height: 100dvh;
   width: 100dvw;
-  background-color: #d4d492;
+  background-color: var(--color-4);
   padding-top: 50px;
+}
+
+.main {
+  min-height: 100cqh;
 }
 
 .wrapper {
@@ -134,6 +138,9 @@ html {
   object-fit: contain;
 }
 
+.title {
+  color: var(--color-2);
+}
 .title:not(:first-child) {
   margin-top: 20px;
 }
@@ -168,7 +175,8 @@ html {
   max-width: 200px;
   padding: 10px 25px;
   border-radius: 5px;
-  background-color: var(--color-1);
+  background-color: var(--color-5);
+  color: var(--color-2);
 }
 
 .start-menu__list {
@@ -196,20 +204,51 @@ html {
   align-items: center;
 }
 
-.login__container {
-  padding: 50px 10px 10px 10px;
-  max-width: 600px;
-  margin: 0 auto;
+.registration {
+  min-height: 100cqh;
 }
-.login__form {
+.registration__container {
+  min-height: 100cqh;
+}
+.registration__form {
+  padding-top: 100px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  gap: 5px;
+}
+.registration__title {
+  margin-bottom: 10px;
+}
+.registration__nickname {
+  font-weight: 800;
+}
+.registration__password {
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.login {
+  min-height: 100cqh;
+}
+.login__container {
+  min-height: 100cqh;
+}
+.login__form {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login__title {
+  margin-bottom: 10px;
+}
+.login__nickname {
+  font-weight: 800;
+}
+.login__password {
+  font-weight: 800;
+  margin-bottom: 20px;
 }
 .footer {
-  background-color: #23261F;
   height: 50px;
   width: 100svw;
   position: fixed;
@@ -233,17 +272,41 @@ html {
   width: 100%;
   height: 100%;
   border-radius: 10px 10px 0 0;
-  background-color: #cc7070;
+  background-color: var(--color-3);
+  border: 1px solid var(--color-4);
 }
 .header {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #fff;
+  background-color: var(--color-3);
   width: 100%;
   height: 50px;
   z-index: 10;
 }
+.header__container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__btn-left svg {
+  width: 30px;
+  height: auto;
+  fill: var(--color-5);
+}
+.header__title {
+  color: var(--color-2);
+  font-weight: bold;
+  font-size: 24px;
+}
+.header__btn-right svg {
+  width: 30px;
+  height: auto;
+  fill: var(--color-5);
+}
+
 .hide-size {
   height: 0;
   min-height: 0;
