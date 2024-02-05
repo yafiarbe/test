@@ -1,0 +1,716 @@
+<!doctype html>
+<html class="core-rules" lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/main.css?_v=20240205055501" />
+		<title>Core Rules</title>
+	</head>
+
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<!-- <nav class="header__nav">
+    <ul class="header__list">
+        <li class="header__item header__item--active"><a href="/" class="header__link">Главная</a></li>
+        <li class="header__item"><a href="./core-rules.html" class="header__link">Основные правила</a></li>
+        <li class="header__item"><a href="" class="header__link">Дополнительные правила</a></li>
+        <li class="header__item"><a href="" class="header__link">Комманды убийц</a></li>
+        <li class="header__item"><a href="" class="header__link">Расширения</a></li>
+    </ul>
+</nav> -->
+
+				<nav
+					class="navbar navbar-expand-lg fixed-top fw-bold text-white"
+				>
+					<div class="container-fluid d-flex justify-content-between">
+						<!-- LOGO -->
+						<a class="navbar-brand" href="#">Navbar</a>
+
+						<!-- Бургер -->
+						<button
+							class="navbar-toggler"
+							type="button"
+							data-bs-toggle="collapse"
+							data-bs-target="#navbarSupportedContent"
+							aria-controls="navbarSupportedContent"
+							aria-expanded="false"
+							aria-label="Toggle navigation"
+						>
+							<span class="navbar-toggler-icon"></span>
+						</button>
+
+						<!-- Навигация -->
+						<div
+							class="collapse navbar-collapse"
+							id="navbarSupportedContent"
+						>
+							<ul class="navbar-nav w-100 justify-content-center">
+								<li class="nav-item">
+									<a
+										class="nav-link text-uppercase active"
+										aria-current="page"
+										href="/"
+									>
+										Главная
+									</a>
+								</li>
+
+								<!-- Основные правила -->
+								<li class="nav-item dropdown">
+									<a
+										class="nav-link dropdown-toggle text-uppercase"
+										href="./core-rules.html"
+										role="button"
+										data-bs-toggle="dropdown"
+										aria-expanded="false"
+									>
+										Основные правила
+									</a>
+									<ul class="dropdown-menu">
+										<li>
+											<a
+												class="dropdown-item"
+												href="./core-rules.html"
+											>
+												Читать полностью
+											</a>
+										</li>
+										<li>
+											<hr class="dropdown-divider" />
+										</li>
+										<li>
+											<a class="dropdown-item" href="#">
+												<b>Tools of War</b>
+											</a>
+										</li>
+										<li>
+											<a
+												class="dropdown-item"
+												href="./core-rules.html#operatives_and_kill_teams"
+											>
+												- Operatives and Kill Teams
+											</a>
+										</li>
+										<li>
+											<a class="dropdown-item" href="#">
+												- Distances
+											</a>
+										</li>
+										<li>
+											<a class="dropdown-item" href="#">
+												- Killzones
+											</a>
+										</li>
+										<li>
+											<a class="dropdown-item" href="#">
+												- Dice
+											</a>
+										</li>
+										<li>
+											<a class="dropdown-item" href="#">
+												<b>Datacards</b>
+											</a>
+										</li>
+										<li>
+											<a class="dropdown-item" href="#">
+												- Engagement Range
+											</a>
+										</li>
+										<li>
+											<a class="dropdown-item" href="#">
+												- Modifying Characteristics
+											</a>
+										</li>
+										<li>
+											<a class="dropdown-item" href="#">
+												- New Core Rule
+											</a>
+										</li>
+										<li>
+											<a class="dropdown-item" href="#">
+												- Fire Teams
+											</a>
+										</li>
+										<li>
+											<a class="dropdown-item" href="#">
+												<b>Battle Structure</b>
+											</a>
+										</li>
+										<li>
+											<a class="dropdown-item" href="#">
+												<b>Initiative Phase</b>
+											</a>
+										</li>
+										<li>
+											<a class="dropdown-item" href="#">
+												- Ready Operatives
+											</a>
+										</li>
+										<li>
+											<a class="dropdown-item" href="#">
+												- Determine Initiative
+											</a>
+										</li>
+										<li>
+											<a class="dropdown-item" href="#">
+												<b>Strategy Phase</b>
+											</a>
+										</li>
+										<li>
+											<a class="dropdown-item" href="#">
+												- Generate Command Points
+											</a>
+										</li>
+										<li>
+											<a class="dropdown-item" href="#">
+												- Play Strategic Ploys
+											</a>
+										</li>
+										<li>
+											<a class="dropdown-item" href="#">
+												- Target Reveal
+											</a>
+										</li>
+									</ul>
+								</li>
+
+								<!-- Дополнительные правила -->
+								<li class="nav-item dropdown">
+									<a
+										class="nav-link dropdown-toggle"
+										href="#"
+										role="button"
+										data-bs-toggle="dropdown"
+										aria-expanded="false"
+									>
+										Дополнительные правила
+									</a>
+									<ul class="dropdown-menu">
+										<li>
+											<a class="dropdown-item" href="#">
+												Action
+											</a>
+										</li>
+										<li>
+											<a class="dropdown-item" href="#">
+												Another action
+											</a>
+										</li>
+										<li>
+											<hr class="dropdown-divider" />
+										</li>
+										<li>
+											<a class="dropdown-item" href="#">
+												Something else here
+											</a>
+										</li>
+									</ul>
+								</li>
+
+								<li class="nav-item">
+									<a class="nav-link" href="#">Link</a>
+								</li>
+
+								<li class="nav-item dropdown">
+									<a
+										class="nav-link dropdown-toggle"
+										href="#"
+										role="button"
+										data-bs-toggle="dropdown"
+										aria-expanded="false"
+									>
+										Dropdown
+									</a>
+									<ul class="dropdown-menu">
+										<li>
+											<a class="dropdown-item" href="#">
+												Action
+											</a>
+										</li>
+										<li>
+											<a class="dropdown-item" href="#">
+												Another action
+											</a>
+										</li>
+										<li>
+											<hr class="dropdown-divider" />
+										</li>
+										<li>
+											<a class="dropdown-item" href="#">
+												Something else here
+											</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+
+							<!-- Поиск -->
+							<form class="d-flex" role="search">
+								<input
+									class="form-control me-2"
+									type="search"
+									placeholder="Search"
+									aria-label="Search"
+								/>
+								<button
+									class="btn btn-outline-success"
+									type="submit"
+								>
+									Search
+								</button>
+							</form>
+						</div>
+					</div>
+				</nav>
+			</header>
+
+			<main class="page">
+				<section class="tools">
+					<div class="container-lg bg-white pt-5">
+						<h1 class="title title__h1">Основные правила</h1>
+						<h2 class="title title__h2">Инструменты войны</h2>
+
+						<p class="paragraph">
+							Для того, чтобы сыграть в битву Warhammer 40,000:
+							Kill Team, каждому игроку понадобится коллекция
+							миниатюр. Им также понадобятся сопровождающие 'эти
+							миниатюры правила, известные как список армий
+							фракций, которые можно найти в различных публикациях
+							Warhammer 40,000: Kill Team. Вам также понадобится
+							линеек, зона поражения и несколько кубиков. Вы также
+							можете счесть полезным иметь жетоны для
+							использования, как ваши миниатюры действовали,
+							получали ранения или выполняли определенные
+							специальные действия во время игры.
+						</p>
+						<h3
+							class="title title__h3"
+							id="operatives_and_kill_teams"
+						>
+							ОПЕРАТИВНИКИ И КОММАНДЫ УНИЧТОЖЕНИЯ
+						</h3>
+						<p class="paragraph">
+							Когда вы выбираете своих оперативников для сражения,
+							вы выбираете не отдельных людей, а
+							специализированный отряд. Это ваша команда Kill
+							Team. Список доступных вам команд можно найти в
+							списке армии вашей фракции. В бою все ваши
+							дружественные оперативники в совокупности называются
+							вашей командой уничтожения.
+						</p>
+						<p class="paragraph">
+							Как только вы выберете тип игры(стр. 81 ),
+							последовательность миссий сообщит вам, когда вы
+							должны выбрать команду убийства для битвы. Когда вы
+							это сделаете, вы должны выбрать одну из Команд
+							уничтожения из списка армии вашей фракции, а затем
+							выбрать оперативников, указанных этой командой
+							уничтожения. Некоторые команды по уничтожению будут
+							указывать точную конфигурацию оперативников, из
+							которых она состоит. Другие позволят вам выбрать
+							собственную конфигурацию операторов (с
+							ограничениями). В любом случае, окончательная
+							конфигурация оперативников должна соответствовать
+							требованиям, изложенным этой командой по
+							уничтожению.
+						</p>
+						<h3 class="title title__h3">ДИСТАНЦИЯ</h3>
+						<p class="paragraph">
+							Warhammer 40,000: KILL TEAM фиксирует тактическое
+							взаимодействие элитных оперативников, используя
+							набор линеек, перечисленных ниже, для измерения
+							расстояний. Точно так же напряженные и своевременные
+							действия оперативников часто отображаются поэтапно.
+							Игроки могут использовать рулетку или другое
+							измерительное устройство, если пожелают,
+							преобразовав соответствующее расстояние ниже в
+							дюймы.
+						</p>
+						<div class="grid align-items-center">
+							<div class="g-col-7">
+								<img
+									src="./image/coreRules/combat_gauges.jpg"
+									alt="combat gauges"
+									class="tools__gauges w-100"
+								/>
+							</div>
+
+							<ul class="list list--tools g-col-5">
+								<li class="list__item">
+									<<1>> Треугольник равен растоянию в 1 дюйм.
+								</li>
+								<li class="list__item">
+									<<2>> Круг равен растоянию в 2 дюйма.
+								</li>
+								<li class="list__item">
+									<<3>> Квадрат равен растоянию в 3 дюйма.
+								</li>
+								<li class="list__item">
+									<<6>> Пятиугольник равен растоянию в 6
+									дюймов.
+								</li>
+							</ul>
+						</div>
+
+						<p class="paragraph">
+							Любые расстояния символа без числового значения
+							соответствуют одному знаку, например 1<<2>>.
+							Несколько дистанций боевой калибровки будут указаны
+							с числовым значением, например, 2 <<2>>. Расстояния
+							могут быть измерены в любое время и могут быть
+							измерены с различными приращениями, если общее
+							количество не превышает указанное расстояние.
+							Например, если оперативник будет перемещен на
+							расстояние 3<<2>>, это может быть измерено как
+							<<6>>, или 6 <<1>>, или даже <<1>> <<2>> <<3>>.
+						</p>
+
+						<p class="paragraph">
+							Многие правила, такие как обычное движение(Normal
+							Move) или способность(Ability), будут иметь
+							требование к расстоянию. При измерении расстояний
+							"до" и "от" оперативников измеряйте от ближайшей
+							части баз оперативников, а не от самой миниатюры.
+						</p>
+
+						<p class="paragraph">
+							Если правило гласит, что что-то должно находиться "в
+							пределах" определенного диапазона, оно находится в
+							пределах диапазона, если ближайшая часть его базы не
+							превышает указанного расстояния. Если правило
+							гласит, что что-то должно быть "полностью в
+							пределах" определенного диапазона, оно находится в
+							пределах диапазона. Оперативник всегда находится в
+							пределах и полностью в пределах досягаемости самого
+							себя.
+						</p>
+
+						<h3 class="title title__h3">Killzones</h3>
+
+						<p class="paragraph">
+							Киллзона- это игровая зона, в которой ваши
+							оперативники ведут войну. Игры Warhammer 40,000:
+							Команда убийц предназначены для игры на площадке
+							размером 30 на 22 дюйма, что соответствует размеру
+							игрового поля Kill Team. Киллзона также будет
+							содержать различные особенности местности, которые
+							добавляют азарта и тактической глубины вашим играм.
+							Рельеф местности более подробно описан на страницах
+							72-80
+						</p>
+
+						<div class="dice">
+							<h3>Игральные кости</h3>
+
+							<p class="paragraph">
+								Warhammer 40,000: Kill Team использует
+								шестигранные кубики (D6). Бросок кубика даст вам
+								значение, известное как результат, который
+								определит успех или неудачу действий ваших
+								оперативников. Некоторые правила относятся к D3.
+								В таких случаях бросьте один D6 и уменьшите
+								значение вдвое (округлив дроби вверх), чтобы
+								определить результат.
+							</p>
+
+							<p class="paragraph">
+								Многие правила требуют определенного результата
+								для успеха, например, атаки. Для примера, чтобы
+								сделать успешный бросок, вам может понадобиться
+								выбросить 3+. Это означает, что для успеха
+								результат должен быть три или выше, поэтому
+								значение броска кубика 3, 4, 5 или 6 считается
+								успешным, тогда как значение броска кубика 1 или
+								2 — неудачным.
+							</p>
+
+							<p class="paragraph">
+								Некоторые правила позволяют вам перебросить
+								бросок кубика. Вы не можете перебрасывать кубик
+								более одного раза и не можете выбрать
+								первоначальный результат, даже если новый
+								результат хуже.
+							</p>
+
+							<p class="paragraph">
+								Некоторые правила предписывают игрокам
+								скатиться. Для этого оба игрока бросают по
+								одному D6, и тот, кто наберет наибольшее
+								количество очков, выигрывает. Если в результате
+								самого высокого броска получается ничья,
+								повторите перебор еще раз. Если оба игрока будут
+								использовать правило, позволяющее им
+								перебрасывать кубики при броске, оба игрока
+								должны заявить об использовании этого правила до
+								переброса кубиков, начиная с игрока, который
+								проиграл бросок.
+							</p>
+
+							<p class="paragraph">
+								Некоторые редкие правила изменяют результат
+								броска, добавляя или вычитая результат. Все
+								модификаторы суммируются. Результат кубика может
+								быть изменен выше или ниже максимально или
+								минимально возможного значения броска. Например,
+								если значение D6 равно 6 и к результату
+								необходимо добавить 1, окончательным результатом
+								будет 7.
+							</p>
+						</div>
+					</div>
+				</section>
+
+				<section class="datacards">
+					<div class="container-lg bg-white">
+						<h2 class="title title__h2">datacards</h2>
+
+						<p class="paragraph">
+							У каждого оперативника в вашей команде есть свой
+							собственный набор индивидуальных правил, известный
+							как Datacard. В ней указаны все ключевые
+							характеристики ваших оперативников и оружие, которым
+							они оснащены, а также подробно описано все, что они
+							могут сделать уникального. Вы найдете пример карты
+							данных напротив и подробную информацию о том, какую
+							информацию она предоставляет ниже. Все приведенные
+							ниже термины затем объясняются на следующих
+							страницах.
+						</p>
+
+						<picture>
+							<source
+								srcset="./image/coreRules/datacard.webp"
+								type="image/webp"
+							/>
+							<img
+								src="./image/coreRules/datacard.png"
+								alt="datacard"
+							/>
+						</picture>
+
+						<h3 class="title title__h3">1. ТИП ОПЕРАТИВНИКА</h3>
+
+						<h3 class="title title__h3">2. ПРОФИЛЬ</h3>
+
+						<ul class="list">
+							<li class="list__item">
+								<p class="paragraph">
+									<strong>Movement (M):</strong>
+									Дистанция на которую оперативник
+									передвигается.
+								</p>
+							</li>
+							<li class="list__item">
+								<p class="paragraph">
+									<strong>Action Point Limit (APL):</strong>
+									Количествоочков действия, которые
+									оперативник генерирует при активации и
+									которые используются для выполнения
+									действий.
+								</p>
+							</li>
+							<li class="list__item">
+								<p class="paragraph">
+									<strong>Group Activation (GA):</strong>
+									Большинство оперативников активируются
+									индивидуально, но некоторые оперативники
+									должны быть активированы в группе. Это число
+									указывает, сколько оперативников могут быть
+									активированы одновременно.
+								</p>
+							</li>
+							<li class="list__item">
+								<p class="paragraph">
+									<strong>Defence (Df):</strong>
+									Сколько атак оперативник может отразить
+									каждый раз, когда другой оперативник атакует
+									его дальнобойным оружием.
+								</p>
+							</li>
+							<li class="list__item">
+								<p class="paragraph">
+									<strong>Save (Sv):</strong>
+									Какова вероятность того, что оперативник
+									предотвратит атаку, когда другой оперативник
+									атакует его с помощью оружия дальнего
+									действия, с результатом, требуемым при
+									броске D6. Обратите внимание, что более
+									низкий результат является лучшей
+									характеристикой.
+								</p>
+							</li>
+							<li class="list__item">
+								<p class="paragraph">
+									<strong>Wounds (W):</strong>
+									Сколько ранений может потерять оперативник,
+									прежде чем он выйдет из строя. Это
+									объясняется на странице 68.
+								</p>
+							</li>
+						</ul>
+
+						<div class="grid">
+							<div class="g-col-6 g-col-12">
+								<h3 class="title title__h3">
+									3. ОРУЖИЕ ДАЛЬНЕГО БОЯ
+									<span class="icon-target"></span>
+								</h3>
+								<p class="paragraph">
+									Оружие дальнего боя, которым может быть
+									оснащен оперативник, а также его
+									характеристики и правила стрельбы. Описание
+									стрельбы приведено на страницах 64-65.
+								</p>
+								<ul class="list">
+									<li class="list__item">
+										<p class="paragraph">
+											<strong>Name:</strong>
+											Наименование оружия.
+										</p>
+									</li>
+									<li class="list__item">
+										<p class="paragraph">
+											<strong>Attacks (A):</strong>
+											Количество кубиков, которые
+											необходимо бросить, когда
+											оперативник атакует этим оружием.
+										</p>
+									</li>
+									<li class="list__item">
+										<p class="paragraph">
+											<strong>
+												Ballistic Skill (BS):
+											</strong>
+											Насколько точен оперативник при
+											атаке этим оружием, представлено
+											результатом, требуемым при броске
+											D6. Обратите внимание, что более
+											низкий результат является лучшей
+											характеристикой
+										</p>
+									</li>
+									<li class="list__item">
+										<p class="paragraph">
+											<strong>Damage (Dmg):</strong>
+											Количество урона, которое может
+											нанести каждая атака кубиками.
+											Первое значение-это Нормальная
+											характеристика повреждения. Второе
+											значение-характеристика Критического
+											повреждения.
+										</p>
+									</li>
+									<li class="list__item">
+										<p class="paragraph">
+											<strong>Special Rules (SR):</strong>
+											Любые специальные правила, которые
+											применяются каждый раз, когда
+											оперативник атакует этим оружием.
+											Общие специальные правила
+											объясняются на страницах 142-143.
+											Специальные правила, отмеченные
+											знаком * , объясняются на
+											информационной карточке
+											оперативника.
+										</p>
+									</li>
+									<li class="list__item">
+										<p class="paragraph">
+											<strong>
+												Critical Hit Rules(!):
+											</strong>
+											Любые дополнительные эффекты,
+											которые оружие может вызвать при
+											критических попаданиях.
+										</p>
+									</li>
+								</ul>
+							</div>
+							<div class="g-col-6 g-col-12">
+								<h3 class="title title__h3">
+									4. ОРУЖИЕ БЛИЖНЕГО БОЯ
+									<span class="icon-swords"></span>
+								</h3>
+								<p class="paragraph">
+									Оружие ближнего боя, которым может быть
+									оснащен оперативник, а также его
+									характеристики и правила ведения боя в бою.
+									Боевые действия описаны на страницах 66-67.
+								</p>
+								<ul class="list">
+									<li class="list__item">
+										<p class="paragraph">
+											<strong>Name:</strong>
+											Название оружия.
+										</p>
+									</li>
+									<li class="list__item">
+										<p class="paragraph">
+											<strong>Attacks (A):</strong>
+											Количество кубиков, которые нужно
+											бросить, когда оперативник атакует
+											этим оружием.
+										</p>
+									</li>
+									<li class="list__item">
+										<p class="paragraph">
+											<strong>Weapon Skill (WS):</strong>
+											Количество кубиков, которые нужно
+											бросить, когда оперативник атакует
+											этим оружием. Насколько точен
+											оперативник при атаке этим оружием,
+											можно увидеть при броске D6.
+											Обратите внимание, что более низкий
+											результат является лучшей
+											характеристикой.
+										</p>
+									</li>
+									<li class="list__item">
+										<p class="paragraph">
+											<strong>Damage (Dmg):</strong>
+											Количество урона, которое может
+											нанести каждая атака кубиками.
+											Первое значение-это Нормальная
+											характеристика повреждения. Второе
+											значение- характеристика
+											Критического повреждения.
+										</p>
+									</li>
+									<li class="list__item">
+										<p class="paragraph">
+											<strong>Special Rules (SR):</strong>
+											Любые специальные правила, которые
+											применяются каждый раз, когда
+											оперативник атакует этим оружием.
+											Общие специальные правила
+											объясняются на страницах 142-143.
+											Специальные правила, отмеченные
+											знаком * , объясняются на карте
+											данных оперативников.
+										</p>
+									</li>
+									<li class="list__item">
+										<p class="paragraph">
+											<strong>
+												Critical Hit Rules(!):
+											</strong>
+											Любые дополнительные эффекты,
+											которые оружие может вызвать при
+											критических попаданиях.
+										</p>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+
+			<footer class="footer">FOOTER</footer>
+		</div>
+
+		<script src="./js/bootstrap.bundle.js?_v=20240205055501"></script>
+		<script src="./js/coreRules.bundle.js?_v=20240205055501"></script>
+	</body>
+</html>

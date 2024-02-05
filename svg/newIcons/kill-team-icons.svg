@@ -1,0 +1,26 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2024 by original authors @ fontello.com</metadata>
+<defs>
+<font id="kill-team-icons" horiz-adv-x="1000" >
+<font-face font-family="kill-team-icons" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="ellipse" unicode="&#xe800;" d="M486 793c236 0 415-192 415-429s-179-415-415-415c-237 0-429 179-429 415s192 429 429 429z" horiz-adv-x="1000" />
+
+<glyph glyph-name="navigation" unicode="&#xe801;" d="M159 843c-44 25-95-20-76-67l368-893c8-20 27-33 49-33h0c21 0 41 13 49 33l368 893c19 47-32 92-76 67l-341-195-341 195z m341-314v-493l-266 644 266-151z" horiz-adv-x="1000" />
+
+<glyph glyph-name="pentagon" unicode="&#xe802;" d="M480 775l419-320-160-518h-517l-160 518 418 320z" horiz-adv-x="1000" />
+
+<glyph glyph-name="rectangle" unicode="&#xe803;" d="M57 793h844v-844h-844v844z" horiz-adv-x="1000" />
+
+<glyph glyph-name="target" unicode="&#xe804;" d="M550 350c0-28-22-50-50-50s-50 22-50 50c0 28 22 50 50 50s50-22 50-50z m200-50h46c-22-125-121-224-246-245v45c0 28-22 50-50 50s-50-22-50-50v-45c-125 21-224 120-245 245h45c28 0 50 22 50 50s-22 50-50 50h-45c21 125 120 224 245 246v-46c0-28 22-50 50-50s50 22 50 50v46c125-22 224-121 246-246h-46c-28 0-50-22-50-50s22-50 50-50z m200 100h-53c-23 181-166 324-347 347v53c0 28-22 50-50 50s-50-22-50-50v-53c-181-23-324-166-347-347h-53c-28 0-50-22-50-50s22-50 50-50h53c23-181 166-324 347-347v-53c0-28 22-50 50-50s50 22 50 50v53c181 23 324 166 347 347h53c28 0 50 22 50 50s-22 50-50 50z" horiz-adv-x="1000" />
+
+<glyph glyph-name="triangle" unicode="&#xe805;" d="M481 754l411-810h-810l399 810z" horiz-adv-x="1000" />
+
+<glyph glyph-name="shield" unicode="&#xe806;" d="M181 734l0-356c0-293 350-468 350-468s350 165 350 469c0 304 0 355 0 355s-157 114-350 114c-194 0-351-114-351-114z m645-368c0-232-277-393-296-402v-1l-1 0-1 0v1c-19 9-297 170-297 402l0 333c0 0 133 93 297 93v1c0 0 0-1 1-1l1 1v-1c164 0 297-93 297-93l-1-333z m-65-10c0-202-216-321-231-329v-1c0 0 0 1 0 1l-1-1v1c-15 8-231 127-231 329l0 290c0 0 103 81 231 82v0h1c128-1 231-82 231-82l0-290z" horiz-adv-x="1000" />
+
+<glyph glyph-name="swords" unicode="&#xe807;" d="M294 291l147-147-59-59 59-59-59-59-103 103-118-118-59 59 118 118-103 103 59 59 59-58 59 58z m-169 434l148 0 492-492 59 58 59-58-103-104 118-117-59-59-118 117-103-103-59 59 59 59-493 493 0 147z m602 0l148 0 0-147-169-169-147 148 168 168z" horiz-adv-x="1000" />
+</font>
+</defs>
+</svg>
