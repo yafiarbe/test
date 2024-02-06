@@ -1,0 +1,38 @@
+{
+	"id": null,
+	"type": "",
+	"name": "",
+	"multiprofile": {
+		"is_available": false,
+		"first_profile": {
+			"attacks": null,
+			"ballistic_skill": null,
+			"damage_normal": null,
+			"damage_critical": null,
+			"special_rules": [],
+			"critical_hit_rules": null
+		},
+		"second_profile": {
+			"attacks": null,
+			"ballistic_skill": null,
+			"damage_normal": null,
+			"damage_critical": null,
+			"special_rules": [],
+			"critical_hit_rules": null
+		},
+		"third_profile": {
+			"attacks": null,
+			"ballistic_skill": null,
+			"damage_normal": null,
+			"damage_critical": null,
+			"special_rules": [],
+			"critical_hit_rules": null
+		}
+	},
+	"attacks": null,
+	"ballistic_skill": null,
+	"damage_normal": null,
+	"damage_critical": null,
+	"special_rules": [],
+	"critical_hit_rules": []
+}

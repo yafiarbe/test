@@ -3,282 +3,305 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="css/main.css?_v=20240205060322" />
+		<link rel="stylesheet" href="css/main.css?_v=20240206041055" />
 		<title>INDEX PAGE</title>
 	</head>
 
 	<body>
 		<div class="wrapper">
 			<header class="header">
-				<!-- <nav class="header__nav">
-    <ul class="header__list">
-        <li class="header__item header__item--active"><a href="/" class="header__link">Главная</a></li>
-        <li class="header__item"><a href="./core-rules.html" class="header__link">Основные правила</a></li>
-        <li class="header__item"><a href="" class="header__link">Дополнительные правила</a></li>
-        <li class="header__item"><a href="" class="header__link">Комманды убийц</a></li>
-        <li class="header__item"><a href="" class="header__link">Расширения</a></li>
-    </ul>
-</nav> -->
-
-				<nav
-					class="navbar navbar-expand-lg fixed-top fw-bold text-white"
-				>
-					<div class="container-fluid d-flex justify-content-between">
+				<div class="header__leng"></div>
+				<nav class="navbar">
+					<div class="navbar__container">
 						<!-- LOGO -->
-						<a class="navbar-brand" href="./index.html">Navbar</a>
-
-						<!-- Бургер -->
-						<button
-							class="navbar-toggler"
-							type="button"
-							data-bs-toggle="collapse"
-							data-bs-target="#navbarSupportedContent"
-							aria-controls="navbarSupportedContent"
-							aria-expanded="false"
-							aria-label="Toggle navigation"
-						>
-							<span class="navbar-toggler-icon"></span>
-						</button>
-
-						<!-- Навигация -->
-						<div
-							class="collapse navbar-collapse"
-							id="navbarSupportedContent"
-						>
-							<ul class="navbar-nav w-100 justify-content-center">
-								<li class="nav-item">
-									<a
-										class="nav-link text-uppercase active"
-										aria-current="page"
-										href="./index.html"
-									>
-										Главная
-									</a>
-								</li>
-
-								<!-- Основные правила -->
-								<li class="nav-item dropdown">
-									<a
-										class="nav-link dropdown-toggle text-uppercase"
-										href="./core-rules.html"
-										role="button"
-										data-bs-toggle="dropdown"
-										aria-expanded="false"
-									>
-										Основные правила
-									</a>
-									<ul class="dropdown-menu">
-										<li>
-											<a
-												class="dropdown-item"
-												href="./core-rules.html"
-											>
-												Читать полностью
-											</a>
-										</li>
-										<li>
-											<hr class="dropdown-divider" />
-										</li>
-										<li>
-											<a class="dropdown-item" href="#">
-												<b>Tools of War</b>
-											</a>
-										</li>
-										<li>
-											<a
-												class="dropdown-item"
-												href="./core-rules.html#operatives_and_kill_teams"
-											>
-												- Operatives and Kill Teams
-											</a>
-										</li>
-										<li>
-											<a class="dropdown-item" href="#">
-												- Distances
-											</a>
-										</li>
-										<li>
-											<a class="dropdown-item" href="#">
-												- Killzones
-											</a>
-										</li>
-										<li>
-											<a class="dropdown-item" href="#">
-												- Dice
-											</a>
-										</li>
-										<li>
-											<a class="dropdown-item" href="#">
-												<b>Datacards</b>
-											</a>
-										</li>
-										<li>
-											<a class="dropdown-item" href="#">
-												- Engagement Range
-											</a>
-										</li>
-										<li>
-											<a class="dropdown-item" href="#">
-												- Modifying Characteristics
-											</a>
-										</li>
-										<li>
-											<a class="dropdown-item" href="#">
-												- New Core Rule
-											</a>
-										</li>
-										<li>
-											<a class="dropdown-item" href="#">
-												- Fire Teams
-											</a>
-										</li>
-										<li>
-											<a class="dropdown-item" href="#">
-												<b>Battle Structure</b>
-											</a>
-										</li>
-										<li>
-											<a class="dropdown-item" href="#">
-												<b>Initiative Phase</b>
-											</a>
-										</li>
-										<li>
-											<a class="dropdown-item" href="#">
-												- Ready Operatives
-											</a>
-										</li>
-										<li>
-											<a class="dropdown-item" href="#">
-												- Determine Initiative
-											</a>
-										</li>
-										<li>
-											<a class="dropdown-item" href="#">
-												<b>Strategy Phase</b>
-											</a>
-										</li>
-										<li>
-											<a class="dropdown-item" href="#">
-												- Generate Command Points
-											</a>
-										</li>
-										<li>
-											<a class="dropdown-item" href="#">
-												- Play Strategic Ploys
-											</a>
-										</li>
-										<li>
-											<a class="dropdown-item" href="#">
-												- Target Reveal
-											</a>
-										</li>
-									</ul>
-								</li>
-
-								<!-- Дополнительные правила -->
-								<li class="nav-item dropdown">
-									<a
-										class="nav-link dropdown-toggle"
-										href="#"
-										role="button"
-										data-bs-toggle="dropdown"
-										aria-expanded="false"
-									>
-										Дополнительные правила
-									</a>
-									<ul class="dropdown-menu">
-										<li>
-											<a class="dropdown-item" href="#">
-												Action
-											</a>
-										</li>
-										<li>
-											<a class="dropdown-item" href="#">
-												Another action
-											</a>
-										</li>
-										<li>
-											<hr class="dropdown-divider" />
-										</li>
-										<li>
-											<a class="dropdown-item" href="#">
-												Something else here
-											</a>
-										</li>
-									</ul>
-								</li>
-
-								<li class="nav-item">
-									<a class="nav-link" href="#">Link</a>
-								</li>
-
-								<li class="nav-item dropdown">
-									<a
-										class="nav-link dropdown-toggle"
-										href="#"
-										role="button"
-										data-bs-toggle="dropdown"
-										aria-expanded="false"
-									>
-										Dropdown
-									</a>
-									<ul class="dropdown-menu">
-										<li>
-											<a class="dropdown-item" href="#">
-												Action
-											</a>
-										</li>
-										<li>
-											<a class="dropdown-item" href="#">
-												Another action
-											</a>
-										</li>
-										<li>
-											<hr class="dropdown-divider" />
-										</li>
-										<li>
-											<a class="dropdown-item" href="#">
-												Something else here
-											</a>
-										</li>
-									</ul>
-								</li>
-							</ul>
-
-							<!-- Поиск -->
-							<form class="d-flex" role="search">
-								<input
-									class="form-control me-2"
-									type="search"
-									placeholder="Search"
-									aria-label="Search"
-								/>
-								<button
-									class="btn btn-outline-success"
-									type="submit"
-								>
-									Search
-								</button>
-							</form>
+						<a href="./index.html" class="navbar__logo">
+							KILL TEAM RU
+						</a>
+						<!-- HAMBURGER BUTTON -->
+						<div class="navbar__hamburger hamburger">
+							<span
+								class="hamburger__line hamburger__line--1"
+							></span>
+							<span
+								class="hamburger__line hamburger__line--2"
+							></span>
+							<span
+								class="hamburger__line hamburger__line--3"
+							></span>
 						</div>
+						<!-- navigation -->
+						<ul class="navbar__list">
+							<li class="navbar__item">
+								<a href="./index.html" class="navbar__link">
+									Главная
+								</a>
+							</li>
+
+							<li class="navbar__item">
+								<a
+									href="./core-rules.html"
+									class="navbar__link"
+								>
+									Основные правила
+								</a>
+								<span class="navbar__arrow"></span>
+								<ul
+									class="navbar__sub-list navbar__sub-list--column"
+								>
+									<li class="navbar__sub-item">
+										<a
+											href="./core-rules.html#tools-of-war"
+											class="navbar__sub-link"
+										>
+											<b>Инструменты для войны</b>
+										</a>
+										<a
+											href="./core-rules.html#operatives-and-kill-teams"
+											class="navbar__sub-link"
+										>
+											Оперативники и комманды истребления
+										</a>
+										<a
+											href="./core-rules.html#distances"
+											class="navbar__sub-link"
+										>
+											Растояния
+										</a>
+										<a
+											href="./core-rules.html#killzones"
+											class="navbar__sub-link"
+										>
+											Зоны убийств
+										</a>
+										<a
+											href="./core-rules.html#dice"
+											class="navbar__sub-link"
+										>
+											Игральные кости
+										</a>
+									</li>
+									<li class="navbar__sub-item">
+										<a
+											href="./core-rules.html#datacards"
+											class="navbar__sub-link"
+										>
+											<b>Карточки данных</b>
+										</a>
+										<a
+											href="./core-rules.html#engagement-range"
+											class="navbar__sub-link"
+										>
+											Диапазон взаимодействия
+										</a>
+										<a
+											href="./core-rules.html#modifying-characteristics"
+											class="navbar__sub-link"
+										>
+											Модификация характеристик
+										</a>
+										<a
+											href="./core-rules.html#for-movement-characteristic"
+											class="navbar__sub-link"
+										>
+											Про характеристику движения
+										</a>
+										<a
+											href="./core-rules.html#fire-teams"
+											class="navbar__sub-link"
+										>
+											Огневые группы
+										</a>
+									</li>
+									<li class="navbar__sub-item">
+										<a
+											href="./core-rules.html#"
+											class="navbar__sub-link"
+										>
+											<b>Структура битвы</b>
+										</a>
+										<a
+											href="./core-rules.html#"
+											class="navbar__sub-link"
+										>
+											Поворотный момент
+										</a>
+										<a
+											href="./core-rules.html#"
+											class="navbar__sub-link"
+										>
+											Про характеристику движения
+										</a>
+									</li>
+
+									<li class="navbar__sub-item">
+										<a
+											href="./core-rules.html#"
+											class="navbar__sub-link"
+										>
+											<b>Фаза инициативы</b>
+										</a>
+										<a
+											href="./core-rules.html#"
+											class="navbar__sub-link"
+										>
+											Подготовка оперативников
+										</a>
+										<a
+											href="./core-rules.html#"
+											class="navbar__sub-link"
+										>
+											Определение инициативы
+										</a>
+									</li>
+
+									<li class="navbar__sub-item">
+										<a
+											href="./core-rules.html#"
+											class="navbar__sub-link"
+										>
+											<b>Фаза стратегии</b>
+										</a>
+										<a
+											href="./core-rules.html#"
+											class="navbar__sub-link"
+										>
+											Генерация коммандных очков
+										</a>
+										<a
+											href="./core-rules.html#"
+											class="navbar__sub-link"
+										>
+											Использование стратегических уловок
+										</a>
+										<a
+											href="./core-rules.html#"
+											class="navbar__sub-link"
+										>
+											Раскрытие целей
+										</a>
+									</li>
+
+									<li class="navbar__sub-item">
+										<a
+											href="./core-rules.html#"
+											class="navbar__sub-link"
+										>
+											<b>Фаза перестрелки</b>
+										</a>
+										<a
+											href="./core-rules.html#"
+											class="navbar__sub-link"
+										>
+											Выполнение действий
+										</a>
+										<a
+											href="./core-rules.html#"
+											class="navbar__sub-link"
+										>
+											Правило надзора (Overwatch)
+										</a>
+										<a
+											href="./core-rules.html#"
+											class="navbar__sub-link"
+										>
+											Действия
+										</a>
+										<a
+											href="./core-rules.html#"
+											class="navbar__sub-link"
+										>
+											- Обычное движение (Normal Move)
+										</a>
+										<a
+											href="./core-rules.html#"
+											class="navbar__sub-link"
+										>
+											- Полёт (Fly)
+										</a>
+										<a
+											href="./core-rules.html#"
+											class="navbar__sub-link"
+										>
+											- Нападение (Charge)
+										</a>
+										<a
+											href="./core-rules.html#"
+											class="navbar__sub-link"
+										>
+											- Отступление (Fall Back)
+										</a>
+										<a
+											href="./core-rules.html#"
+											class="navbar__sub-link"
+										>
+											- Рывок (Dash)
+										</a>
+										<a
+											href="./core-rules.html#"
+											class="navbar__sub-link"
+										>
+											- Пасс (Pass)
+										</a>
+										<a
+											href="./core-rules.html#"
+											class="navbar__sub-link"
+										>
+											- Надзор (Overwatch)
+										</a>
+										<a
+											href="./core-rules.html#"
+											class="navbar__sub-link"
+										>
+											- Поднять (Pick Up)
+										</a>
+										<a
+											href="./core-rules.html#"
+											class="navbar__sub-link"
+										>
+											- Стрелять (Shoot)
+										</a>
+										<a
+											href="./core-rules.html#"
+											class="navbar__sub-link"
+										>
+											- Драться (Fight)
+										</a>
+									</li>
+								</ul>
+							</li>
+
+							<li class="navbar__item">
+								<a href="" class="navbar__link">
+									Дополнительные правила
+								</a>
+							</li>
+
+							<li class="navbar__item">
+								<a href="" class="navbar__link">
+									Комманды убийц
+								</a>
+							</li>
+
+							<li class="navbar__item">
+								<a href="" class="navbar__link">Расширения</a>
+							</li>
+						</ul>
 					</div>
 				</nav>
 			</header>
+
 			<main class="page">
 				<!-- Секция  "info"-->
 				<section class="info">
-					<div class="container-lg text-center">
+					<div class="info__container">
 						<img
-							class="info__logo pt-5"
+							class="info__logo"
 							src="./svg/KTLogo.svg"
 							alt="Logo"
 						/>
-						<h1 class="info__title pt-5">
-							Warhammer 40.000 Kill Team
-						</h1>
-						<div
-							class="info__readmore info-readmore pt-5 w-50 m-auto"
-						>
+						<h1 class="info__title">Warhammer 40.000 Kill Team</h1>
+
+						<div class="info__readmore info-readmore">
 							<div class="info-readmore__content">
 								<p class="info-readmore__text">
 									Warhammer: Kill Team - это настольная игра с
@@ -307,9 +330,9 @@
 
 				<!-- Секция "rules" -->
 				<section class="rules">
-					<div class="container-lg">
+					<div class="rules__container">
 						<a
-							href=" ./core-rules.html"
+							href="./core-rules.html"
 							class="rules__core rules__core--1"
 						>
 							<div class="rules__box">
@@ -364,7 +387,7 @@
 			<footer class="footer">FOOTER</footer>
 		</div>
 
-		<script src="./js/bootstrap.bundle.js?_v=20240205060322"></script>
-		<script src="./js/index.bundle.js?_v=20240205060322"></script>
+		<script src="./js/bootstrap.bundle.js?_v=20240206041055"></script>
+		<script src="./js/index.bundle.js?_v=20240206041055"></script>
 	</body>
 </html>
